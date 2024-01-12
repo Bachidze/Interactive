@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carddiv{
+    width: 326px;
+    height: 360px;
+    background: radial-gradient(50.52% 50.52% at 51.06% 25.26%, #232A34 0%, #181E27 100%);
+    border-radius: 15px;
+    padding: 24px;
+}
+
+.orange:hover{
+    background-color: #FC7614;
+    transition: 1s;
+    color: white;
+}
+
+
+.flex{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.round{
+    min-width: 45px;
+    height: 45px;
+    background-color: #262E38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #7C8798;
+    font-size: 16px;
+    font-family: Overpass;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20px;
+    word-wrap: break-word;
+}
+
+.submit{
+    width: 279px;
+    height: 45px;
+    background-color: #FC7614;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    font-family: Overpass;
+    font-weight: 700;
+    letter-spacing: 1.87px;
+    word-wrap: break-word;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+.starround{
+    width: 40px;
+    height: 40px;
+    background-color: #262E38;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    color: white;
+    font-size: 24px;
+    font-family: Overpass;
+    font-weight: 700;
+    word-wrap: break-word;
+    padding-top: 16px;
+    padding-bottom: 10px;
+}
+
+.paragraph{
+    color: #969FAD;
+    font-size: 14px;
+    font-family: Overpass;
+    font-weight: 400;
+    line-height: 22px;
+    word-wrap: break-word;
+    width: 290px;
+}
+
+.submit:hover{
+    background-color: #fff;
+    transition: 1s;
+    color: #FC7614;
+}
+
+
+.clicked{
+    background-color: white;
+}
