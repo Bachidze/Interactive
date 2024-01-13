@@ -68,7 +68,7 @@ const Card = ({
       </div>
 
       <form className={style.form}>
-        <button className={`${style.submit} ${style[hover]}`}>{button}</button>
+        <button className={`${style.submit} ${style[hover]}`} onClick={(e)=>e.preventDefault()}>{button}</button>
       </form>
     </div>
   );
